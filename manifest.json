@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "glitchy-screen",
+  "version": "1.0",
+
+  "description": "yytjty",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+	  "run_at": "document_start",
+      "js": ["content.js"]
+    }
+  ]
+
+}
